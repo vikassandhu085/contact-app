@@ -1,0 +1,84 @@
+body {
+  background-color: whitesmoke;
+}
+.main {
+  justify-content: center;
+}
+
+.center {
+  justify-content: center;
+}
+.maindiv {
+  height: 700px;
+  width: 30%;
+  padding-bottom: 100px;
+  border: 1px solid lightgray;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #aaaaaa
+}
+.label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px !important;
+    font-weight: normal;
+}
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.item {
+  padding: 15px 0px !important;
+}
+
+
+.trash.icon{
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ED5545;
+}
+.trash.icon:hover{
+  color: darkred;
+}
+.edit.icon{
+  position:relative;
+  right: 20px;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  color: darkgreen;
+}
+.edit.icon:hover{
+  color:lightseagreen;
+}
+.ui.icon.input{
+  width: 100%;
+}
+/* .ui.centered.card{
+  width: 400px;
+} */
+.contactDetails{
+  .ui.centered.card{
+    width: 350px;
+  } 
+  .main{
+    height: 500px;
+  }
+  .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui){
+    font-size: 1.71428571rem;
+  }
+  .ui.card>.content>.header+.description, .ui.card>.content>.meta+.description, .ui.cards>.card>.content>.header+.description, .ui.cards>.card>.content>.meta+.description{
+    font-size: 20px;
+  }
+  .back-to-list{
+    margin-left: 20%;
+  }
+  .ui.green.button{
+    width: 60%;
+  }
+}
