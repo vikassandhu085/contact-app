@@ -67,7 +67,7 @@ function App() {
   return (
     <div className="main">
       <div className="maindiv">
-        <Router>
+        <Router basename="/contact-app">
         <Header />
         <Routes>
           
