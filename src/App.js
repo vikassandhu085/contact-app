@@ -71,7 +71,7 @@ function App() {
         <Header />
         <Routes>
           
-        <Route path="/" element={<ContactList contacts={ search.length<1?contacts:result} getContactId = {removeContactHandler} term = {search} searchContact = {searchHandler}  />}  />
+        <Route exact path="/contact-app" element={<ContactList contacts={ search.length<1?contacts:result} getContactId = {removeContactHandler} term = {search} searchContact = {searchHandler}  />}  />
         <Route path="/add" element={<AddContact addContactHandler={addContactHandler} />} />
         <Route path="/edit" element={<EditContact editContactHandler={editContactHandler} />} />
         <Route path="/contact/:id" element={<ContactDetails />} />
